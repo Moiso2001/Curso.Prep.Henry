@@ -1,0 +1,12 @@
+* `for`
+* `&&`, `||`, `!`
+
+///////////////////////////
+
+For = El comando for sirve para crear un  bucle en una variable y asi que esa variable pueda ser usada dentro de 
+comparaciones o demas trabajos de logica.
+
+&&, ||, ! = Dicese && como 'and' o 'y' y || como 'or' tambien 'o' en espanol, estos pueden ser usados dentro de
+codigo para agregar a comparaciones otras condiciones, el ! lo diria como un reverse en cualquier tipo de valor 
+booleano, explicandolo mas facilmente diria que si pones ! sobre algo que es verdadero lo pasaria a algo falso
+y viceversa.
