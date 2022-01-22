@@ -1,0 +1,8 @@
+ARRAYS = El termino array se puede asemejar a una variable y al 
+ejemplo de las cajas pero a diferencia de las variables que solo 
+pueden tener un dato en las Arrays puedes agregar varios datos
+y crear todo un mundo lleno de datos y pueden ser inclusive diferentes
+existen todo tipos de comandos y matrices para agregatr eliminar 
+invocar elementos dentro de una misma array, en terminos simples
+es como una gran caja donde podremos encontrar numeros, funciones,
+numeros, valores booleanos y cuanto podamos imamginar.
