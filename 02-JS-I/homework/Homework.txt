@@ -1,0 +1,30 @@
+    * Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+Answer:
+
+Variables = Una variable es una caja vacia donde tu puedes agregar lo que desees, esa caja puede ser llamada luego 
+para mostrar lo que hay dentro, tambien por medio de ciertos comandos puedes agregar mas cosas o modificar las cosas
+que hay dentro de la caja. (es importante darle un nombre a la caja para luego llamarla despues).
+
+Strings = Un string es un tipo de dato y esta representado por '' por ejemplo 'Hola' ese hola es un String, el string
+se creo para decirle a la computadora que ese dato que esta entre '' es una palabra y tiene la particularidad que
+para la computadora si escribes un numero dentro de '' deja de ser un numero y pasaria a ser una palabra.
+
+Por ejemplo si escribimos 1 este seria un numero pero si escribes '1' esto pasaria a ser una palabra para la 
+computadora y funciona para cualquier cosa textos largos e.t.c. 
+
+Funciones = Una funcion es parecida a una variable pero en vez de ser una caja donde guardas cosas, esta es una caja
+donde puedes guardar comandos y ordenes que le pides a la computadora, esto al igual que una variable puede ser 
+nombrada (invocada) despues.
+
+Declaraciones = Una declaracion es una comparacion que se va hacer entre dos cosas, objetos, variables, esta 
+comparacion va a dar como resultado o que es verdadera o que es falsa dependiendo de eso se podrá ejecutar un 
+codigo o no.
+
+Valores Booleanos = Solo hay dos valores booleanos los cuales son falso y verdadero si le preguntamos una comparacion
+a una computadora nos va a responder o que es falso o que es verdadero a partir de eso se podran ejecutar ciertos
+pasos logicos con los cuales podremos crear cualquier cosa.
