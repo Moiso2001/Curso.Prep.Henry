@@ -1,0 +1,33 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+    ---------------------------------------------///-----------------------
+Objetos = Un objeto literalmente se describe asi mismo, un objeto va a tener ciertas caracteristicas
+aparte de caracteristicas un objeto puede hacer cosas (metodos) a este objeto se le podra invocar se le podra agregar
+eliminar caracteristicas (Propiedades) o acciones (Metodos) tambien saber que todo en JavaScript fuciona como Objetos
+esto quiere decir que cualquier lugar afuera donde se escriba seria el objeto 'global' si se esta dentro de un navegador
+que se puede ubicar escribiendo 'this' fuera de cualquier objeto que creamos.
+
+Propiedades = las propiedades puede ser cuanta cosa se te ocurra, dentro de las propiedades pueden tener los tres
+tipos de valores que hay dentro de java (booleano, numero, string) igualmente se pueden llamar esas propiedades en
+especifico con ciertas notaciones, las propiedades pueden tener valores que pueden ser los tipos de datos ya antes
+mencionados, tambien dentro de las propiedades pueden ser los metodos.
+
+Metodos = Un metodo es una funcion dentro de un objeto, literalmente funciona igual que una funcion solo que cuando
+se encuentra de un objeto esta se va a llamar metodo esto se debe a una cognotacion de otros lenguajes que le decian
+asi y cuando se paso a javascript se le quedo el mismo nombre.
+
+Bucle = El bucle for..in es lo mismo que el bucle for pero gracias a una nueva actualziacion el for se puede simplificar
+de manera que no necesita tantos datos y puede ser mucho mas consiso, literalmente funciona igual que el for, tan solo
+que lo simplifica.
+
+Notacion: tenemos dos maneras de llamar a las propiedades dentro de los objetos y esto es con dos conotaciones distintas
+podemos escojer notacion de puntos que es literalmente 'objeto'.'propiedad' que es lo mismo que objeto [propiedad]
+y tenemos la conotacion de corchetes que fue la ultima mensionada pero esta tiene algo especial ya que mas alla
+de traer solo propiedades como strings tambien puede ser aplicada a variables si tan solo se quitan los '' por ejemplo
+objeto [propiedad] asi llamando a la variable propiedad esto sirve para cuando se hacen llamados a metodos de un objeto.
