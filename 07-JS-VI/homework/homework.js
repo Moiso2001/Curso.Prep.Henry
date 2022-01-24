@@ -63,7 +63,7 @@ function filter(array) {
   });
   return nuevoArray;
 
-  // o se podria de esta manera con la propiedad Array.filter = 
+  // o se podria de esta manera con la propiedad Array.prototype.filter = 
   // let nuevoArray = array.filter(array => array.charAt(0) === 'a');
   // return nuevoArray;
 
