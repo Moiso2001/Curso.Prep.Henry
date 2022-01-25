@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/6272450.png);
+    background-repeat: round;
+}
+h1 {    
+    color: rgba(207, 110, 167, 0.856);
+    display: flex;
+}
+img {
+     height: 400px;
+     width: 400px;
+     float: center;
+}
+.divClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#thirdDiv{
+    max-height: 1000px;
+    max-width: 500px;
+    background-color: rgb(212, 174, 224);
+    padding: 50px;
+    margin: 0 auto;
+    border-style: dashed;
+    border-width: 15px;
+    border-color: rgb(220, 194, 238);
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+#parrafo {
+    font-size: 20px;
+    text-align: justify;
+    font-style: italic;
+}
+
