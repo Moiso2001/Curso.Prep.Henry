@@ -1,0 +1,322 @@
+/* -------------------------BodyMenuDesign------------------------------------- */
+body {
+    background-color: #f1faee;
+    margin: 0px;
+    font-family: Helvetica, Arial;
+}
+#Menu {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-image: url(https://thumbs.dreamstime.com/b/pixel-art-clouds-83695394.jpg);
+    padding-right: 0px;
+    margin-bottom: 0px;
+}   
+#Menu::after {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    content: '';
+    background: #1F1C2C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    filter: blur(20px);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+#Menu ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    margin-bottom: 0px;
+}
+#Menu ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(48, 47, 47);
+    display: block;
+    padding: 10px 25px; 
+    font-size: 20px;
+}
+#Menu ul li a:hover {
+    background-color: #63b4cf;
+}
+#fotoPerfil { 
+    display: flex;
+    width: 200px;
+    margin-left: 40px;
+}
+/*  *-----------------------------BodyMenuDesignEnd----------------------------- */
+/* ------------------------------Index-------------------------------------- */
+/* Aqui abajo seguira la imagen principal*/
+#segundaParte {
+    display: flex;
+    justify-content: center;
+}
+#segundaParte img {
+    display:flex;
+    width: 1615px;
+    z-index: -2;
+}
+/* ------------------------------IndexEnd-------------------------------------- */
+/* ------------------------------Footer---------------------------------------- */
+#piedepagina {
+    display: flex;
+    background-color: #e7e7e7;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+#piedepagina h3{
+    position: absolute;
+    left: 40px;
+    font-size: 20px;
+}
+#piedepagina h3::after{
+    content:'';
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.295) ;
+    top: 33px;
+    left: 0px;
+}
+.letra {
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+.icon {
+    position: relative;
+    top: 70px;
+    left: 40px; 
+}
+#piedepagina img {
+    width: 30px;
+}
+/* ------------------------------FooterEnd---------------------------------------- */
+/* ------------------------------DescPersonal-------------------------------------- */
+#desc {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 70px;
+    margin-right: 180px;
+    font-size: 20px;
+}
+#desc h3 {
+    position: relative;
+    font-size: 30px;
+    margin: 0px;
+}
+#desc h3::after{
+    content:'';
+    position: absolute;
+    width: 915px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.377) ;
+    top: 40px;
+    left: 0px;
+}
+#testpersonalidad {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 75px;
+}
+#testpersonalidad img{
+    position: relative;
+    width: 200px;
+}
+#testpersonalidad h4{
+    position: relative;
+    bottom: 0px;
+    font-size: 30px;
+}
+#testpersonalidad h5{
+    font-size: 20px;
+    margin: 20px;
+}
+#testpersonalidad p{
+    font-size: 20px;
+    margin: 0px;
+}
+/* ------------------------------DescPersonalEnd-------------------------------------- */
+/* ---------------------------------Educacion----------------------------------------- */
+#edu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+#edu h3 {
+    font-size: 30px;
+}
+#edu h3::after{
+    content:'';
+    position: absolute;
+    width: 600px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.377) ;
+    top: 70px;
+    left: 458px;
+}
+#edu h4 {
+    font-size: 25px;
+}
+#edu p{
+    font-size: 20px;
+}
+#edu img{
+    display: flex;
+    margin-top: 20px;
+}
+#cel {
+    position: relative;
+    top: 20px;
+}
+/* ---------------------------------EducacionEnd----------------------------------------- */
+/* ----------------------------------ExpLaboral------------------------------------------ */
+#fullbody {
+    display: flex;
+    padding-bottom: 75px;
+}
+#textlab {
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+#textlab h3 {
+    position: relative;
+    font-size: 30px;
+    margin-top: 0px;
+}
+#textlab h3::after{
+    content:'';
+    position: absolute;
+    width: 915px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.377) ;
+    top: 40px;
+    left: 0px;
+}
+#textlab h4 {
+    position: relative;
+    font-size: 25px;
+}
+#textlab p{
+    position: relative;
+    font-size: 20px;
+}
+#imglab {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+#sitel {
+    position: relative;
+    width: 200px;
+}
+#transcom {
+    display: flex;
+    width: 200px;
+}
+/* ----------------------------------ExpLaboralEnd------------------------------------------ */
+/* -------------------------------------Skills---------------------------------------------- */
+#skillstext {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-bottom: 75px;
+}
+#skillstext h3 {
+    font-size: 30px;
+    margin: 0px;
+}
+#skillstext h3::after{
+    content:'';
+    position: absolute;
+    width: 915px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.377) ;
+    top: 110px;
+    left: 40px;
+}
+#skillstext h4 {
+    font-size: 25px;
+    margin-top: 63.2px;
+}
+#skillstext p {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+/* -------------------------------------SkillsEnd---------------------------------------------- */
+/* --------------------------------------Hobbies----------------------------------------------- */
+#fullbody1 {
+    display: flex;
+    padding-bottom: 75px;
+}
+#texthobbies {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+#texthobbies h3 {
+    font-size: 30px;
+    margin: 0px;
+}
+#texthobbies h3::after{
+    content:'';
+    position: absolute;
+    width: 915px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.377) ;
+    top: 110px;
+    left: 40px;
+}
+#musica {
+    font-size: 25px;
+    margin-top: 62.3px;
+    margin-bottom: 53.2px;
+}
+#verpeliculas {
+    font-size: 25px;
+    display: flex;
+    margin-top: 53.2px;
+}
+#texthobbies p {
+    font-size: 20px;
+    margin: 0px;
+}
+#imghobbies {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-top: 180px;
+}
+#imgmusica {
+    position: relative;
+    width: 300px;
+}
+#imgpeli {
+    display: relative;
+    width: 350px;
+    margin-top: 20px;
+}
