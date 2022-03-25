@@ -27,10 +27,10 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
     var nuevoArray = [];
-    for(var i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
       nuevoArray[i] = array[i] + 1;
-  }
-  return nuevoArray
+    }
+    return nuevoArray;
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -124,12 +124,11 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
   var totales = [];
-    for (let i = 0; i < arreglo.length; i++) {
-      if (arreglo[i] > 19) {
-        totales.push (arreglo[i]);
-      }
-    }
-    return totales.length
+   for (i = 0; i < arreglo.length; i++) {
+     if (arreglo[i] > 18)
+      totales.push(arreglo[i])
+   }
+   return totales.length;
 }
 
 
@@ -213,12 +212,11 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   var array = [];
-  var suma = numero;
   for (var i = 0; i < 10; i++) {
-    if (suma === i) break;
+    if (numero === i) break;
     else {
-      suma = suma + 2;
-      array.push(suma);
+      numero = numero + 2;
+      array.push(numero);
     }
   }
   if(i < 10) {
@@ -237,17 +235,16 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var array = [];
-  var suma = numero;
-  for (var i = 0; i < 10; i++) {
-  if (i === 5)continue;
-  else {
-    suma = suma + 2;
-    array.push(suma);
-  }
+  suma = numero
+  for (let i = 0; i < 10; i++) {
+    if (i === 5)continue;
+    else {
+      suma = suma + 2
+      array.push(suma);
+    }
+   }
+   return array;
 }
-return array;
-}
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------

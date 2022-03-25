@@ -6,11 +6,11 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-    const objeto = {
+    let objeto = {
       nombre: nombre,
       edad: edad,
-      meow: function() {return 'Meow!'}
-    }
+      meow: function(){return 'Meow!'}
+    };
     return objeto;
 }
 
@@ -45,18 +45,18 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // Devuelve el objeto
   // Tu código:
   delete objeto[unaPropiedad];
-return objeto;
+  return objeto;  
 }
 
 function nuevoUsuario(nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
-    var objeto = {
+    let objeto = {
       nombre: nombre,
       email: email,
       password: password,
-    };
+    }
     return objeto;
 }
 
@@ -65,7 +65,7 @@ function tieneEmail(usuario) {
   // De lo contratio, devuelve "false"
   // Tu código:
   if (usuario.email) {
-    return true
+    return true;
   } else {
     return false;
   }
@@ -78,9 +78,9 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (propiedad in objeto) {
+    if (objeto[propiedad]){
       return true;
-    } else {
+    }else{
       return false;
     }
   }
@@ -90,7 +90,11 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // // Tu código:
-  return password === usuario.password;
+  if (password === usuario.password) {
+    return true;
+  }else{
+    return false;
+  }
 }
 
 function actualizarPassword(usuario, nuevaPassword) {
@@ -118,7 +122,7 @@ function pasarUsuarioAPremium(usuarios) {
   // Tu código:
   for (let i = 0; i < usuarios.length; i++) {
     usuarios[i].esPremium = true;
-  }
+  } 
   return usuarios;
 }
 
@@ -128,12 +132,12 @@ function sumarLikesDeUsuario(usuario) {
   // Cada objeto "post" tiene una propiedad llamada "likes" que es un entero (int/integer)
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
-  // Tu código:
-  var contador = 0;
-  for (let i in usuario.posts) {
-    var contador = contador + usuario.posts[i].likes;
-  }
-  return contador;
+  // Tu código: 
+  let contador = 0
+    for (i in usuario.posts) {
+      contador = usuario.posts[i].likes + contador;
+    }
+    return contador;
 }
 
 function agregarMetodoCalculoDescuento(producto) {
